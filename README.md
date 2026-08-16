@@ -32,12 +32,12 @@ The following preprocessing steps were performed:
 
 ## c. GitHub Repository Link
 
-The complete project, including the Jupyter Notebook, README, requirements file, Streamlit application, trained model modules, preprocessing metadata, and performance results, is maintained in the following GitHub repository:
+The complete project, including the Jupyter Notebook, README, requirements file, Streamlit application and trained model, is maintained in the following GitHub repository:
 
 **GitHub Repository:**
 https://github.com/2025ac05855-amit/MachineLearning-Assignment2/
 The repository contains the following important files:
-- AdultIncomePred.ipynb
+- 2025AC05855 - AdultIncomePred.ipynb
 - README.md
 - requirements.txt
 - test_data.csv
@@ -47,7 +47,7 @@ The repository contains the following important files:
 The `models` directory contains the exported deployment-safe model modules and preprocessing information.
 
 
-# d. Models Used
+## d. Models Used
 
 The following five machine learning classification models were implemented and evaluated:
 1. Logistic Regression
@@ -79,11 +79,6 @@ The models were evaluated using the following metrics:
 | Naive Bayes              | **0.807616** | **0.855432** | **0.766185** | **0.646830** | **0.670212** | **0.395394** |
 | Random Forest (Ensemble) | **0.861201** | **0.918010** | **0.835346** | **0.761603** | **0.788240** | **0.592376** |
 
-### Source of Evaluation Results
-
-The complete calculated results are automatically saved by the notebook to:python_models/model_performance_metrics.csv
-The model comparison visualization is saved as: python_models/model_performance_comparison.png
-
 
 # Observations on Model Performance
 
@@ -92,7 +87,6 @@ Logistic Regression achieved 84.20% accuracy and an AUC of 0.8896. It provides a
 Logistic Regression provides a strong baseline for the Adult Income classification problem. Since it is a linear classification algorithm, it performs well when the relationship between the processed features and the target can be reasonably represented by a linear decision boundary.
 Its performance provides a useful benchmark against the more complex tree-based and instance-based models.
 Logistic Regression provides a competitive baseline, but its ability to capture complex non-linear relationships is more limited than ensemble and tree-based approaches.
-
 
 
 ## Decision Tree
@@ -161,25 +155,15 @@ MachineLearning-Assignment2/
     ├── k_nearest_neighbors_model.py
     ├── decision_tree_model.py
     ├── logistic_regression_model.py
-    ├── preprocessing_metadata.json
-    ├── feature_names.txt
-    ├── model_performance_metrics.csv
-    └── model_performance_comparison.png
-
-
-
+    └── feature_names.txt
 
 # Requirements
 
 The required Python packages are listed in `requirements.txt`:
-numpy
-pandas
-scikit-learn
-matplotlib
-m2cgen
-streamlit
-jupyter
-notebook
-
-
+•	streamlit
+•	pandas
+•	numpy
+•	scikit-learn
+•	matplotlib
+•	seaborn
 Install the dependencies using:pip install -r requirements.txt
