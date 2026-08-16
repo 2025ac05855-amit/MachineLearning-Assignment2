@@ -37,14 +37,12 @@ The complete project, including the Jupyter Notebook, README, requirements file,
 **GitHub Repository:**
 (https://github.com/2025ac05855-amit/MachineLearning-Assignment2/)
 The repository should contain the following important files:
-
-
-AdultIncomePred.ipynb
-README.md
-requirements.txt
-test_data.csv
-app.py
-models/
+- AdultIncomePred.ipynb
+- README.md
+- requirements.txt
+- test_data.csv
+- app.py
+- models/
 
 The `python_models` directory contains the exported deployment-safe model modules and preprocessing information.
 
