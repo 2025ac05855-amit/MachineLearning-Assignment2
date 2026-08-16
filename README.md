@@ -44,7 +44,7 @@ The repository contains the following important files:
 - app.py
 - models/
 
-The `python_models` directory contains the exported deployment-safe model modules and preprocessing information.
+The `models` directory contains the exported deployment-safe model modules and preprocessing information.
 
 
 # d. Models Used
