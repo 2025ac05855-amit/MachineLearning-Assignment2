@@ -72,7 +72,7 @@ TARGET_COLUMN = "income"
 # LOAD MODEL MODULE
 # ============================================================
 
-@st.cache_resource
+
 def load_model_module(model_name):
     """
     Dynamically loads one of the exported model Python modules.
