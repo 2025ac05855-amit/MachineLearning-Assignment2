@@ -35,8 +35,7 @@ The following preprocessing steps were performed:
 The complete project, including the Jupyter Notebook, README, requirements file, Streamlit application, trained model modules, preprocessing metadata, and performance results, is maintained in the following GitHub repository:
 
 **GitHub Repository:**
-`[PASTE YOUR GITHUB REPOSITORY LINK HERE]`
-
+(https://github.com/2025ac05855-amit/MachineLearning-Assignment2/)
 The repository should contain the following important files:
 
 
