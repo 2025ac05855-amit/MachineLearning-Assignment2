@@ -147,9 +147,9 @@ MCC: 0.592376
 Therefore, Random Forest provides the strongest overall predictive performance for this Adult Income classification dataset.
 
 # Project Files
-project/
+MachineLearning-Assignment2/
 │
-├── AdultIncomePred.ipynb
+├── 2025AC05855-AdultIncomePred.ipynb
 ├── README.md
 ├── requirements.txt
 ├── app.py
