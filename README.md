@@ -13,6 +13,10 @@ The objective of this project is to build and compare multiple machine learning 
 - **<=50K**
 - **>50K**
 
+The prediction is based on multiple demographic and employment-related features available in the Adult Income dataset. These features include information such as age, workclass, education, marital status, occupation, relationship, capital gain, capital loss, hours worked per week, and other relevant attributes.
+
+The project addresses the complete machine learning workflow, beginning with data preprocessing and preparation, followed by training multiple classification models and comparing their performance using different evaluation metrics.
+
 The application allows users to:
 
 - Select a machine learning model.
