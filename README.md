@@ -122,14 +122,14 @@ AdultIncomePrediction/
 ├── Test_Data.csv
 │
 └── models/
-   ├── random_forest_model.pkl
-   ├── decision_tree_model.pkl
-   ├── logistic_regression_model.pkl
-   ├── gaussian_nb_model.pkl
-   ├── k_nearest_neighbors_model.pkl
-   └── preprocessing.pkl
+    ├── random_forest_model.pkl
+    ├── decision_tree_model.pkl
+    ├── logistic_regression_model.pkl
+    ├── gaussian_nb_model.pkl
+    ├── k_nearest_neighbors_model.pkl
+    └── preprocessing.pkl
 
-📦 Trained Models
+**📦 Trained Models**
 The trained_models folder contains the trained machine learning models.
 random_forest_model.pkl
 decision_tree_model.pkl
@@ -138,7 +138,7 @@ gaussian_nb_model.pkl
 k_nearest_neighbors_model.pkl
 The Streamlit application loads the selected model using joblib.
 
-⚙️ Preprocessing
+**⚙️ Preprocessing**
 The models were trained using preprocessed and scaled input data.
 To ensure that uploaded data is processed in exactly the same way during deployment, the preprocessing information is stored in preprocessing.pkl
 This file contains: 
@@ -153,8 +153,8 @@ Inverse target mapping
 Fitted scaler
 The saved preprocessing artifacts ensure consistency between the training and deployment environments.
 
-🚀 Streamlit Application Features
-1. Model Selection
+**🚀 Streamlit Application Features**
+**1. Model Selection**
 Users can select one of the five available machine learning models from the sidebar.
 Random Forest
 Decision Tree
@@ -162,12 +162,12 @@ Logistic Regression
 Gaussian Naive Bayes
 K-Nearest Neighbors
 
-2. CSV Upload
+**2. CSV Upload**
 Users can upload a CSV file containing the required feature columns.
 For prediction: Target column is optional
 For evaluation: Include the income target column
 
-3. Income Prediction
+**3. Income Prediction**
 The application:
 Loads the selected PKL model.
 Loads the saved preprocessing artifacts.
@@ -176,14 +176,14 @@ Applies the saved scaler.
 Generates predictions.
 Converts numeric predictions back to income labels.
 
-4. Prediction Summary
+**4. Prediction Summary**
 The application displays:
 Total Predictions
 Number of Unique Income Classes
 Prediction Distribution
 Bar Chart of Predicted Income Classes
 
-5. Model Evaluation
+**5. Model Evaluation**
 If the uploaded CSV contains the income column, the application calculates:
 Accuracy
 AUC
@@ -192,13 +192,13 @@ Recall (Macro)
 F1-Score (Macro)
 Matthews Correlation Coefficient (MCC)
 
-6. Confusion Matrix
+**6. Confusion Matrix**
 The application displays the confusion matrix for the selected model.
                     Predicted <=50K    Predicted >50K
 Actual <=50K              TN                  FP
 Actual >50K               FN                  TP
 
-7. Classification Report
+**7. Classification Report**
 The application displays:
 Precision
 Recall
@@ -206,6 +206,6 @@ F1-Score
 Support
 for both income classes: <=50K and >50K
 
-8. Download Predictions
+**8. Download Predictions**
 Users can download the prediction results as: adult_income_predictions.csv
 The downloaded file includes the original uploaded data and Predicted Income
