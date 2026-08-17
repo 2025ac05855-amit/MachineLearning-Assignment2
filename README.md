@@ -137,3 +137,71 @@ Target mapping
 Inverse target mapping
 Fitted scaler
 The saved preprocessing artifacts ensure consistency between the training and deployment environments.
+
+🚀 Streamlit Application Features
+
+1. Model Selection
+Users can select one of the five available machine learning models from the sidebar.
+Random Forest
+Decision Tree
+Logistic Regression
+Gaussian Naive Bayes
+K-Nearest Neighbors
+
+2. CSV Upload
+Users can upload a CSV file containing the required feature columns.
+For prediction: Target column is optional
+For evaluation: Include the income target column
+
+3. Income Prediction
+The application:
+Loads the selected PKL model.
+Loads the saved preprocessing artifacts.
+Preprocesses the uploaded input data.
+Applies the saved scaler.
+Generates predictions.
+Converts numeric predictions back to income labels.
+
+
+4. Prediction Summary
+The application displays:
+Total Predictions
+Number of Unique Income Classes
+Prediction Distribution
+Bar Chart of Predicted Income Classes
+
+5. Model Evaluation
+If the uploaded CSV contains the income column, the application calculates:
+Accuracy
+AUC
+Precision (Macro)
+Recall (Macro)
+F1-Score (Macro)
+Matthews Correlation Coefficient (MCC)
+
+6. Confusion Matrix
+
+The application displays the confusion matrix for the selected model.
+                    Predicted <=50K    Predicted >50K
+Actual <=50K              TN                  FP
+Actual >50K               FN                  TP
+
+7. Classification Report
+
+The application displays:
+
+Precision
+Recall
+F1-Score
+Support
+
+for both income classes:
+
+<=50K
+>50K
+
+8. Download Predictions
+
+Users can download the prediction results as: adult_income_predictions.csv
+
+The downloaded file includes the original uploaded data and: Predicted Income
