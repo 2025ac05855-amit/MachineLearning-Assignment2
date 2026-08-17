@@ -53,12 +53,14 @@ Each trained model is saved separately in PKL format.
 
 **📈 Model Performance**
 The following performance results were obtained during model evaluation:
-ML Model Name	            Accuracy	      AUC      Precision	   Recall	   F1	         MCC
-Logistic Regression	      0.842008	   0.889641	   0.799789	      0.738293	   0.760729	   0.534557
-Decision Tree	            0.857516	   0.905852	   0.835108	      0.749812	   0.778816	   0.578668
-kNN	                     0.831721	   0.855273	   0.772971	      0.749376	   0.759735	   0.521813
-Naïve Bayes	               0.807616	   0.855432	   0.766185	      0.646830	   0.670212	   0.395394
-Random Forest	            0.861201	   0.918010	   0.835346	      0.761603	   0.788240	   0.592376
+| Machine Learning Model    |   Accuracy |        AUC |  Precision |     Recall |   F1-Score |        MCC |
+| ------------------------- | ---------: | ---------: | ---------: | ---------: | ---------: | ---------: |
+| Random Forest             |     0.8612 |     0.9180 |     0.8353 |     0.7616 |     0.7882 |     0.5924 |
+| Decision Tree             |     0.8575 |     0.9059 |     0.8351 |     0.7498 |     0.7788 |     0.5787 |
+| Logistic Regression       |     0.8420 |     0.8896 |     0.7998 |     0.7383 |     0.7607 |     0.5346 |
+| k-Nearest Neighbors (kNN) |     0.8317 |     0.8553 |     0.7730 |     0.7494 |     0.7597 |     0.5218 |
+| Naïve Bayes               |     0.8076 |     0.8554 |     0.7662 |     0.6468 |     0.6702 |     0.3954 |
+
 
 # Observations on Model Performance
 ## Logistic Regression
