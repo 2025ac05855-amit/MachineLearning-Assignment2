@@ -88,7 +88,7 @@ Highest AUC: 0.918010
 Highest F1-Score: 0.788240
 Highest MCC: 0.592376
 
-##Project Structure##
+### Project Structure
 AdultIncomePrediction/
 │
 ├── app.py
