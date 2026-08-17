@@ -51,8 +51,8 @@ Typical features include:
 ### Target Variable
 
 income
-<=50K
->50K
+- **<=50K**
+- **>50K**
 
 During training, the target labels are encoded numerically and converted back to their original labels when displaying predictions in the Streamlit application.
 
