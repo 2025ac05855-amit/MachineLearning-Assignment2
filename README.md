@@ -50,7 +50,6 @@ Typical features include:
 
 ### Target Variable
 
-```text
 income
 <=50K
 >50K
