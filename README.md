@@ -116,3 +116,24 @@ gaussian_nb_model.pkl
 k_nearest_neighbors_model.pkl
 
 The Streamlit application loads the selected model using joblib.
+
+⚙️ Preprocessing
+
+The models were trained using preprocessed and scaled input data.
+
+To ensure that uploaded data is processed in exactly the same way during deployment, the preprocessing information is stored in:
+
+preprocessing.pkl
+
+This file contains:
+
+Feature names
+Feature order
+Numeric columns
+Categorical columns
+Numeric median values
+Category mappings
+Target mapping
+Inverse target mapping
+Fitted scaler
+The saved preprocessing artifacts ensure consistency between the training and deployment environments.
