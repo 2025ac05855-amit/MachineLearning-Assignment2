@@ -90,20 +90,20 @@ Highest MCC: 0.592376
 ### Project Structure
 AdultIncomePrediction/
 │
+├── AdultIncomePred.ipynb
 ├── app.py
 ├── requirements.txt
 ├── README.md
+├── Test_Data.csv
 │
-├── models/
-│   ├── random_forest_model.pkl
-│   ├── decision_tree_model.pkl
-│   ├── logistic_regression_model.pkl
-│   ├── gaussian_nb_model.pkl
-│   ├── k_nearest_neighbors_model.pkl
-│   └── preprocessing.pkl
-│
-└── notebooks/
-    └── AdultIncomePred.ipynb
+└── models/
+   ├── random_forest_model.pkl
+   ├── decision_tree_model.pkl
+   ├── logistic_regression_model.pkl
+   ├── gaussian_nb_model.pkl
+   ├── k_nearest_neighbors_model.pkl
+   └── preprocessing.pkl
+
 
 📦 Trained Models
 
