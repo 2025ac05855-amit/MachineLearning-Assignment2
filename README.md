@@ -36,8 +36,7 @@ Typical features include:
 - Hours per Week
 - Native Country
 
-### Target Variable
-income
+### Target Variable: Income Status of individual
 - **<=50K**
 - **>50K**
 
