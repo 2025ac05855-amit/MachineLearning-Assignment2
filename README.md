@@ -7,6 +7,7 @@ The application is built using **Python**, **Scikit-learn**, and **Streamlit**. 
 The objective of this project is to build and compare multiple machine learning classification models for predicting whether an individual's income is:
 - **<=50K**
 - **>50K**
+
 The application allows users to:
 - Select a machine learning model.
 - Upload a CSV file containing input data.
