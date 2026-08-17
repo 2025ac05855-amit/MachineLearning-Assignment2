@@ -112,7 +112,7 @@ Therefore, Random Forest provides the strongest overall predictive performance f
 ### Project Structure
 AdultIncomePrediction/
 │
-├── AdultIncomePred.ipynb
+├── 2025AC05855 - AdultIncomePred.ipynb
 ├── app.py
 ├── requirements.txt
 ├── README.md
