@@ -105,3 +105,15 @@ AdultIncomePrediction/
 │
 └── notebooks/
     └── AdultIncomePred.ipynb
+
+📦 Trained Models
+
+The trained_models folder contains the trained machine learning models.
+
+random_forest_model.pkl
+decision_tree_model.pkl
+logistic_regression_model.pkl
+gaussian_nb_model.pkl
+k_nearest_neighbors_model.pkl
+
+The Streamlit application loads the selected model using joblib.
